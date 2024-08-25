@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FairHealth Center</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">     <!--font awesome-->
+
+</head>
+<body>
+    
+    <div class="grid-container">
+        <div >
+            <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                <div class="container-fluid">
+                    <a class="navbar-brand" href="#" > <div id="title">Welcome To FairHealth Center</div></a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarNav">
+                        <ul class="navbar-nav ms-auto">
+                            <li class="nav-item" style="margin-right: 20px;">
+                                <a class="nav-link active" aria-current="page" href="#home">Home</a>
+                            </li>
+
+                            <li class="nav-item" style="margin-right: 20px;">
+                                <a class="nav-link" href="#why-us">Services</a>
+                            </li>
+
+
+                            <li class="nav-item">
+                                <a class="nav-link" href="#patient-details" style="margin-right: 20px;">Patients</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#partners" style="margin-right: 20px;">Partners</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#contact-us" style="margin-right: 20px;">Contact Us</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+            
+
+
+        </div>
+
+        <div class="centerbar" id="home">
+            <!-- <div id="paragraph">
+                <p><strong style="font-size: x-large;">
+                        <div class="heading" style="text-align: center;">FairHealth Center</div>
+                    Your trusted partner in health care.</strong></p>
+
+                    <div>
+                        
+                            <button id="serve"> <a class="nav-link" href="#why-us">Our services</a></button>
+                        
+
+                    </div> -->
+            </div>
+        </div>
+
+        <div class="middlebar" id="why-us">
+            <div>
+                <h5><strong style="color: rgb(255, 30, 0);">WHY CHOOSE US</strong> </h5><br>
+
+                <h3> Where Care Meets Compassion, and Everyone Matters.</h3><br>
+
+                <p>At FairHealth Center we acknowledge everyone is special</p>
+
+                <div class="collapsebtn" style="margin-top: 30px; margin-bottom: 50px;">
+                <button class="btn btn-outline-dark collapse-btn" type="button" data-bs-toggle="collapse" data-bs-target="#facility" aria-expanded="false" aria-controls="facility" style="width: 200px; height: 148px; margin-right: 100px;">
+                    
+                    <h5>Facilities </h5><br>
+
+                    <i class="fa-solid fa-microscope" style="font-size: 54px"></i>
+                </button>
+
+                <button class="btn btn-outline-dark collapse-btn" type="button" data-bs-toggle="collapse" data-bs-target="#service" aria-expanded="false" aria-controls="service" style="width: 200px; height: 148px; margin-right: 100px;">
+                    
+                    <h5>Quality Service </h5><br>
+                    <i class="fa-solid fa-user-doctor" style="font-size: 54px"></i>
+                </button>
+
+                <button class="btn btn-outline-dark collapse-btn" type="button" data-bs-toggle="collapse" data-bs-target="#price" aria-expanded="false" aria-controls="price" style="width: 200px; height: 148px; ">
+                    
+                    <h5>Affordable HealthCare </h5><br>
+                    <i class="fa-solid fa-tag" style="font-size: 54px"></i>
+                </button>
+            </div>
+            </div>
+            
+            <div class="collapse w-100" id="facility">
+                <div class="card card-body mt-3">
+                   
+                <p>We are equipped with the latest medical technology to ensure accurate diagnostics and effective treatments. 
+                    From advanced imaging and diagnostic labs to cutting-edge surgical suites, 
+                    our facilities are designed to support a wide range of medical procedures, 
+                    ensuring you receive the best care possible.
+
+                </p>
+                   
+                </div>
+            </div>
+
+            <div class="collapse w-100" id="service">
+                <div class="card card-body mt-3">
+                   <p>Our commitment to providing exceptional healthcare is at the heart of everything we do. 
+                    We understand that when it comes to your health, only the best will do. 
+                    That’s why we maintain the highest standards of quality across all our services, 
+                    ensuring that you receive the best possible care at every step of your journey.
+
+                   </p>
+                </div>
+            </div>
+
+            <div class="collapse w-100" id="price">
+                <div class="card card-body mt-3">
+        <p>we believe that high-quality healthcare should be accessible to everyone, 
+            regardless of their financial situation. We are committed to offering affordable pricing across all our services, 
+            ensuring that cost is never a barrier to receiving the care you need.</p>
+                </div>
+            </div>
+        </div>
+
+       
+
+        <div class="bottom-bar" id="patient-details">
+               <div class="welcome" style="margin-top: 0;">
+                    <br><br><h2 style="text-align: center; ">  WELCOME TO FAIRHEALTH CENTER</h2>
+
+        <p  style="text-align: center; " >Become our patient today</p>
+    </div>
+                <div class="form-container">
+            <div class="form-section border border-success rounded p-4 mb-4">
+                <h2>Patient Details</h2>
+                <form id="patient-form">
+                    <input type="hidden" id="idinput">
+                    <label for="name">Full Name:</label>
+                    <input type="text" id="name" name="name" required>
+
+                    <label for="age">Age:</label>
+                    <input type="number" id="age" name="age" required>
+
+                    <label for="gender">Gender:</label>
+                    <select id="gender" name="gender" required>
+                        <option value="male">Male</option>
+                        <option value="female">Female</option>
+                        <option value="other">Other</option>
+                    </select>
+
+                    <label for="condition">Condition:</label>
+                    <input type="text" id="condition" name="condition" required>
+                    <div id="liveAlertPlaceholder"></div>
+                    <button type="submit" class="allbtn" id="liveAlertPlaceholder">Submit</button>
+                </form>
+            </div>
+
+            <div class="search-section border border-success rounded p-4 mb-4">
+                <h4>Patient Searched Details</h4>
+                <label for="patientname">Patient Name:</label>
+                <input type="text" id="patientname" name="name" readonly>
+                <label for="patientage">Patient Age:</label>
+                <input type="text" id="patientage" readonly>
+                <label for="patientgender">Patient Gender:</label>
+                <input type="text" id="patientgender" readonly>
+                <label for="patientcondition">Patient Condition:</label>
+                <input type="text" id="patientcondition" name="patientcondition" readonly>
+
+                <button id="editbtn" class="allbtn">Edit Details</button>
+                <button id="deletebtn" class="allbtn">Delete</button><br><br>
+
+                <h2>Search Patient</h2>
+                <input type="text" id="search-name" placeholder="Enter patient name">
+                <button onclick="searchPatient()" class="allbtn">Search</button>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="partners-bar" id="partners">
+            <h3 style="text-align: center;">Our Partners <br>
+
+                <img src="https://urbankenyans.com/wp-content/uploads/2020/01/Pay-NHIF-Via-Mpesa.jpg" alt="NHIF" width="100px" height="100px" style="margin-right: 200px;">
+                <img src="https://2.bp.blogspot.com/-vSFSzjNIgkg/Ucq-jFhYcHI/AAAAAAAAAbQ/A0SFzuICjxI/s1600/Logo+UNHCR+The+UN+Refugee+Agency.JPG" alt="UNHCR" width="140px" height="140px" style="margin-right: 120px;">
+                <img src="https://www.memorialkenya.com/wp-content/uploads/2020/06/Madison-Insurance-Company-Kenya.png" alt="Madison Group" width="180px" height="180px" style="margin-right: 30px;">
+                <img src="https://th.bing.com/th/id/OIP.J7JNMtC5M4oelL_Dpo3dPgHaHL?rs=1&pid=ImgDetMain" alt="Madison Group" width="180px" height="180px" style="margin-right: 30px;">
+
+                <img src="" alt="">
+
+            </h3>
+
+    </div>
+
+    <div class="contactbar" id="contact-us"><u>FairHealth Center</u> 
+
+        <div class="aboutus" style="margin-right: 600px;">
+            <u>About Us</u><br><br>
+            Our Mission<br>
+            At FairHealth Center, <br>
+            we believe that everyone deserves access to high-quality healthcare, <br>
+            regardless of their background or financial situation.<br>
+             Our mission is to bridge the gap in healthcare access by offering <br>comprehensive medical services that are both affordable and excellent in quality. <br>
+             We are committed to serving our community with<br> integrity, compassion, and a deep commitment to the well-being of all our patients.
+        
+        </div>
+       
+            <div class="socials">
+                <p style="text-align: center;"><u>contact us </u></p>
+                <i class="fa-brands fa-instagram"></i> @fairhealth_center <br><br>
+
+                <i class="fa-brands fa-twitter"></i>@fairhealth_center  <br><br>
+
+                <i class="fa-solid fa-phone"></i> +254700090001 <br><br>
+
+                <i class="fa-brands fa-whatsapp"></i> +254700090001 <br><br>
+
+                <i class="fa-regular fa-envelope"></i> info@fairhealth
+
+            </div>
+
+            <p>Thank you for choosing us</p>
+
+    </div>
+    </div>
+
+   
+
+    <script src="script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

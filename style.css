@@ -1,0 +1,246 @@
+/* General reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-rows: auto auto auto 1fr;
+    height: 100vh;
+}
+
+/* .topbar {
+    color: black;
+    text-align: center;
+    padding: 15px 0;
+    font-size: 24px;
+    font-weight: bold;
+} */
+
+.centerbar {
+background-image: url('https://th.bing.com/th/id/R.e46c4cff24d872894608ce2ae20482ef?rik=L2XypzL79I%2f8vg&riu=http%3a%2f%2farchitizer-prod.imgix.net%2fmediadata%2fprojects%2f082011%2fec5685f4.jpg&ehk=0OrRe61b3x7D8%2bEDdIUKvphIjQbAk%2fTJzRIlG6chr0c%3d&risl=&pid=ImgRaw&r=0');
+    
+    background-size: cover;
+    background-position: center;
+    height: 500px; /* Adjust height as needed */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+
+
+/* #paragraph {
+   
+    padding: 10px;
+    margin-top: 100px;
+    border: #f3f3f3;
+    /* background-color: #f3f3f3; */
+    /* color: black;
+    margin-left: 50px;
+} */ 
+
+/* #serve{
+    background-color: orangered;
+    border-radius: 10px;
+} */
+
+.middlebar {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    background-color: white;
+    color: black;
+    text-align: center;
+  
+
+}
+
+.bottom-bar {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
+    
+    padding: 20px;
+    background-color: rgb(197, 190, 190);
+    color: black;
+}
+
+.contactbar{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
+    
+    padding: 20px;
+    background-color: black;
+    color: white;
+}
+
+.partners-bar{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    background-color: white;
+    color: black;
+    text-align: center;
+
+  
+}
+.welcome {
+    text-align: center;
+    margin-bottom: 20px;
+    
+    margin-top: 0px;
+}
+.form-container {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    max-width: 1200px; /* Adjust the max-width as needed */
+}
+
+.form-section, .search-section {
+    width: 45%;
+    margin-top: 80px;
+}
+
+h5 {
+    margin-bottom: 20px;
+    font-size: larger;
+    text-decoration: chocolate;
+}
+
+h2, h4 {
+    color: black;
+    margin-bottom: 10px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    color: black;
+}
+
+input[type="text"],
+input[type="number"],
+select {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+input[type="text"]:read-only {
+    background-color: #f3f3f3;
+}
+
+button {
+    width: 120px;
+    padding: 10px;
+    background-color: #09ff00c0;
+    color: white;
+    border: 1px solid black;
+    border-radius: 120px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: green;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .bottom-bar {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .form-section, .search-section {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    .collapse-btn {
+        margin-top: 10px;
+    }
+}
+
+.socials{
+
+    margin-left: 800px;
+    flex-direction: column;
+   margin-top: -180px;
+   
+}
+
+.aboutus{
+    flex-direction: column;
+    margin-top: 20px;
+}
+
+.allbtn{
+    background-color: orangered;
+    border-radius: 10px;
+}
+
+#paragraph {
+    /* background-color: rgba(0, 0, 0, 0.5); Semi-transparent black background */
+    padding: 1px;
+    padding-top: -50px;
+    color: white;
+    border-radius: 10px;
+    text-align: center;
+    max-width: 900px; /* Adjust the width to fit the text nicely */
+    height: 200px;
+    margin-left: 900px;
+    margin-bottom:150px ;
+}
+
+#paragraph strong {
+    font-size: 36px; /* Larger font size for better visibility */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7); /* Add subtle shadow for readability */
+}
+
+#paragraph .heading {
+    font-size: 48px; /* Increase heading size */
+    margin-bottom: 5px;
+    font-weight: bold;
+    margin-top: 5px;
+}
+
+#serve {
+    margin-top: 1px;
+    margin-bottom: 5px;
+    background-color: orangered;
+    border-radius: 10px;
+    padding: 10px;
+    font-size: 20px;
+    border: none;
+    cursor: pointer;
+    width: 150px;
+}
+
+#serve a {
+    color: white; /* Ensure the link text is visible on the button */
+    text-decoration: none;
+}
+
+
+#title  {
+    font-size: 26px; /* Larger font size for better visibility */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7); /* Add subtle shadow for readability */
+    margin-bottom: 5px;
+    font-weight: bold;
+    margin-top: 5px;
+    color: rgb(68, 59, 59);
+}

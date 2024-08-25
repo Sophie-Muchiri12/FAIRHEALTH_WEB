@@ -1,0 +1,39 @@
+{
+  "patients": [
+    {
+      "id": "10",
+      "name": "sam",
+      "age": "34",
+      "gender": "male",
+      "condition": "asthma"
+    },
+    {
+      "id": "11",
+      "name": "Nick",
+      "age": "34",
+      "gender": "male",
+      "condition": "backache"
+    },
+    {
+      "id": "12",
+      "name": "joe doe",
+      "age": "12",
+      "gender": "male",
+      "condition": "asthma"
+    },
+    {
+      "id": "15",
+      "name": "Sophie Muthoni",
+      "age": "45",
+      "gender": "male",
+      "condition": "sore throat"
+    },
+    {
+      "id": "16",
+      "name": "finn",
+      "age": "14",
+      "gender": "male",
+      "condition": "cough"
+    }
+  ]
+}
